@@ -19,47 +19,47 @@ Este é um projeto de e-commerce desenvolvido com SvelteKit, demonstrando uma lo
 ## Instalação
 
 1. Clone o repositório:
-   \`\`\`
+   ```sh
    git clone https://github.com/larissaferreira07/svelte-kit-virtual-store.git
    cd svelte-kit-virtual-store
-   \`\`\`
+   ```
 
 2. Instale as dependências:
-   \`\`\`
+   ```sh
    npm install
-   \`\`\`
+   ```
 
-3. Crie um arquivo \`.env\` na raiz do projeto e adicione suas credenciais do Supabase:
-   \`\`\`
+3. Crie um arquivo `.env` na raiz do projeto e adicione suas credenciais do Supabase:
+   ```sh
    VITE_SUPABASE_URL=sua_url_do_supabase
    VITE_SUPABASE_ANON_KEY=sua_chave_anonima_do_supabase
-   \`\`\`
+   ```
 
 ## Desenvolvimento
 
 Para iniciar o servidor de desenvolvimento:
 
-\`\`\`
+```sh
 npm run dev
-\`\`\`
+```
 
-Acesse \`http://localhost:5173\` no seu navegador para ver a aplicação.
+Acesse `http://localhost:5173` no seu navegador para ver a aplicação.
 
 ## Construção
 
 Para criar uma versão de produção do site:
 
-\`\`\`
+```sh
 npm run build
-\`\`\`
+```
 
 ## Estrutura do Projeto
 
-- \`src/routes\`: Contém as rotas da aplicação
-- \`src/lib/components\`: Componentes reutilizáveis
-- \`src/lib/stores\`: Stores Svelte para gerenciamento de estado
-- \`src/lib/utils\`: Funções utilitárias
-- \`static\`: Arquivos estáticos como imagens
+- `src/routes`: Contém as rotas da aplicação
+- `src/lib/components`: Componentes reutilizáveis
+- `src/lib/stores`: Stores Svelte para gerenciamento de estado
+- `src/lib/utils`: Funções utilitárias
+- `static`: Arquivos estáticos como imagens
 
 ## Tecnologias Utilizadas
 
