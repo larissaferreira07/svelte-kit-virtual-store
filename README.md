@@ -1,4 +1,3 @@
-cat << EOF > README.md
 # Svelte Kit Virtual Store
 
 Este é um projeto de e-commerce desenvolvido com SvelteKit, demonstrando uma loja virtual com funcionalidades básicas.
